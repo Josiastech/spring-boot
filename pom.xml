@@ -37,8 +37,9 @@
 		</dependency>
 		<!-- JSTL para JSP -->
 		<dependency>
-			<groupId>javax.servelt</groupId>
-			<artifactId>jstl</artifactId>
+		    <groupId>javax.servlet</groupId>
+		    <artifactId>jstl</artifactId>
+		    <scope>provided</scope>
 		</dependency>
 		<!-- Para compilar JSP -->
 		<dependency>
